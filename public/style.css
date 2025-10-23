@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat-area {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fafafa;
+}
+
+.message {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.system-message {
+    color: gray;
+    font-style: italic;
+    text-align: center;
+}
+
+.my-message {
+    text-align: right;
+    background-color: #d1e7dd;
+}
+
+.other-message {
+    text-align: left;
+    background-color: #f8d7da;
+}
+
+#typing-indicator {
+    color: blue;
+    font-size: 0.9em;
+    margin-top: 5px;
+    height: 1.2em;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#room-setup input,
+#room-setup button {
+    margin-top: 10px;
+}
